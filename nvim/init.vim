@@ -90,6 +90,7 @@ call NERDTreeHighlightFile('yml', 'yellow', 'none', 'yellow', '#151515')
 map <C-n> :NERDTreeToggle<CR>
 autocmd vimenter * NERDTree
 let g:NERDTreeChDirMode=2
+let NERDTreeShowHidden=1
 let g:NERDTreeIgnore=['\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__', 'node_modules']
 let g:NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$', '\.bak$', '\~$']
 let g:NERDTreeShowBookmarks=1
