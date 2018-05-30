@@ -93,7 +93,7 @@ zplug load
 
 # the Clover to your prompt
 PROMPT='
-%F{green}🍀%f %F{cyan}%~%f '
+%F{green}🍀%f %F{blue}%T%f %F{red}%n%f %F{cyan}%~%f '
 
 # git
 autoload -Uz vcs_info
