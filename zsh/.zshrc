@@ -104,6 +104,7 @@ zstyle ":vcs_info:git:*" unstagedstr "-"
 zstyle ":vcs_info:git:*" formats "%F{yellow}[%b]%f%F{red}%u%f%F{cyan}%c%f "
 zstyle ":vcs_info:git:*" actionformats "%F{yellow}[%b|%a]%f%F{red}%u%f%F{cyan}%c%f"
 precmd() { vcs_info }
+setopt prompt_subst
 PROMPT=$PROMPT'${vcs_info_msg_0_}
 %# '
 
