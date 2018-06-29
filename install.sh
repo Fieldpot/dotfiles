@@ -5,6 +5,7 @@ curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh >
 sh ./installer.sh ~/.cache/dein
 dir=`pwd`"/nvim/"
 cd ../
+mkdir ~/.config
 ln -s $dir ~/.config/nvim
 
 # install zplug
