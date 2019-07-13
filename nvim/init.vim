@@ -16,6 +16,7 @@ set smartcase
 set tabstop=4
 set title
 set wrapscan
+set clipboard=unnamed,autoselect
 map ; :
  
 if &compatible
@@ -46,6 +47,9 @@ if dein#load_state('~/.cache/dein')
   call dein#end()
   call dein#save_state()
 endif
+
+" emmet-vim
+let g:user_emmet_leader_key='<c-t>'
 
 " markdown
 filetype plugin on

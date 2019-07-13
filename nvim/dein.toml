@@ -27,6 +27,9 @@ on_i = 1
 repo = 'scrooloose/nerdtree'
 
 [[plugins]]
+repo = 'mattn/emmet-vim'
+
+[[plugins]]
 repo = 'Xuyuanp/nerdtree-git-plugin'
 
 [[plugins]]
