@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # install neo-vim
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > neovim_installer.sh
